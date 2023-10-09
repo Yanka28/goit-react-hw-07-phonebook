@@ -6,7 +6,6 @@ import { List, Contact, ListItem, Button } from './ContactsList.styled';
 
 export const ContactsList = () => {
   const dispatch = useDispatch();
-
   const filteredcontacts = useSelector(selectVisibleContacts);
 
   return (
